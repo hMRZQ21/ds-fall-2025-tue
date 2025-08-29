@@ -14,10 +14,9 @@
 
 -- 
 
-
 # Homework For Next Week
-TBD 
-
+Pre Class Reading for Scrum (5 mins):
+https://www.atlassian.com/agile/project-management/project-management-intro
 
 ### Extra Credit
 * Visualizations with Google Studio

@@ -18,9 +18,7 @@
 * Ahmad Basyouni
 * Hussam Marzooq: Fridays 7-8 PM
 * Jessica Lau
-* Kevin Li
-<br>
-
+* Kevin Li: Fridays 9-10 PM
 
 # Syllabus
 
