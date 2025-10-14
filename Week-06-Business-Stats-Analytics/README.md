@@ -10,10 +10,13 @@
 0. Lecture Coding
 0. TEAM Breakout Rooms
 	- Alphabetical order by first name is SCRUM leader for first meeting (next will be next)
-	- Create design doc if you have not yet.
+	- Create design doc if you have not yet. Follow the template [HERE](https://github.com/CUNYTechPrep/ds-dev-fall-2025/blob/main/Week-06-Business-Stats-Analytics/project_design_template.md).
 	- Bookmark in group chat Slack Chat, invite all team members, TA, and Instructor as editors. 
 
 # Homework
+
+# IMPORTANT, FROM NOW ON SUBMIT HOMEWORK ON THIS GOOGLE SHEET!  
+Instructor walk them thru how to do it ([here](https://docs.google.com/spreadsheets/d/1noOJ6UP_izWVsWHmvFXe3UPQVPVsxeK_QGLOL7J7k10/edit?gid=0#gid=0))
 
 ### Exercise Notebook
 
