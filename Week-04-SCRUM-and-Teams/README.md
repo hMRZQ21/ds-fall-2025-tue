@@ -2,7 +2,8 @@
 
 ## Agenda
 0. Remind me to start recording
-0. After CC, First 5 vollys get to pitch their idea [Match Making Slides](https://docs.google.com/presentation/d/14byZY6zfrfDIu6W0GDIfgQjpunf7lXoefwVolWv8WVs/edit?slide=id.g2fe36577cca_0_931#slide=id.g2fe36577cca_0_931)
+1. Read Weekly Announcements Message
+0. After CC, First 5 vollys get to pitch their idea [Match Making Slides](https://docs.google.com/presentation/d/15dKy4DA3uGoQfVNo6KxRlTG8TmajlcNwxCbDfY0r_v8/edit?slide=id.g37d53ad70fc_0_119#slide=id.g37d53ad70fc_0_119)
 0. Career Coach Lecture: Tech Roles and Leadership
 0. BREAK
 0. [SCRUM Lecture Slides](https://docs.google.com/presentation/d/1G-7RNgZinNdX1FChukCllxV07ioiHQRA7gaxPV6eYHw/edit?usp=sharing)
