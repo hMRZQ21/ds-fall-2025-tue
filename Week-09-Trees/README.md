@@ -11,7 +11,7 @@
 0. Be active in chat.  TA is mod, Zack doesn’t really watch it.  
 0. Remind kids not to push to dev. 
 0. Check-In about [Engagement Best Practices](https://docs.google.com/presentation/d/1ovV1kSQBwY5NXKKWPaLhdxN2Df0X-fPLgn1uodu6XC8/edit?usp=sharing) [5min]
-0. Decision Trees and Random Forests [Google Slides Lecture](https://docs.google.com/presentation/d/1FFIcOzdfXsHdQwuBrPCt7ORDvvz3Mud33mdqBqwQK6w/edit?usp=sharing) [50min]
+0. Decision Trees and Random Forests [Google Slides Lecture](https://docs.google.com/presentation/d/1Q6K5_Xya0ABGGql_tw5--enopcCovJkC9xjTdTXH4eE/edit?slide=id.g39ae72f06c3_0_0#slide=id.g39ae72f06c3_0_0) [50min]
 0. Break
 0. Live coding lecture [30min]
 0. Breakout Rooms
