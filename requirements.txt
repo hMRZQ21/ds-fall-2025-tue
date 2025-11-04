@@ -1,0 +1,155 @@
+# Google Colab-like requirements.txt for local Python environments
+# Optimized for NVIDIA GPU usage and unlimited local resources
+# Based on Google Colab runtime versions 2025.07-2025.10
+#
+# IMPORTANT: For CUDA support, PyTorch packages must be installed separately:
+#   pip install "torch>=2.6,<2.7" "torchvision>=0.21,<0.22" "torchaudio>=2.6,<2.7" \
+#     --index-url https://download.pytorch.org/whl/cu124
+#   (Use cu124 for CUDA 12.4; for CUDA 11.8 use cu118 and matching versions.)
+#   Then install remaining packages with: pip install -r requirements.txt
+
+# =============================================================================
+# CORE DATA SCIENCE STACK
+# =============================================================================
+numpy>=2.0.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+scipy>=1.11.0
+scikit-learn>=1.3.0
+
+# =============================================================================
+# DEEP LEARNING FRAMEWORKS (CUDA/GPU versions)
+# =============================================================================
+# PyTorch with CUDA support - CANNOT be installed via requirements.txt
+# Install separately to mitigate CVE-2025-32434 (requires torch>=2.6):
+#   pip install "torch>=2.6,<2.7" "torchvision>=0.21,<0.22" "torchaudio>=2.6,<2.7" \
+#     --index-url https://download.pytorch.org/whl/cu124
+# Note: Use cu118 for CUDA 11.8; keep versions mutually compatible
+# Exclude torch/torchvision/torchaudio from pip install -r requirements.txt
+
+# TensorFlow with GPU support (requires CUDA toolkit and cuDNN installed)
+tensorflow[and-cuda]>=2.13.0
+keras>=2.13.0
+tf_keras>=2.13.0
+
+# JAX with CUDA support - specify CUDA version based on your setup
+# For CUDA 12: jax[cuda12_local]>=0.4.0
+# For CUDA 11: jax[cuda11_local]>=0.4.0
+# Or use: pip install jax[cuda]>=0.4.0 jaxlib>=0.4.0 -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+jax[cuda12_local]>=0.4.0
+jaxlib>=0.4.0
+
+# =============================================================================
+# JUPYTER ECOSYSTEM
+# =============================================================================
+jupyter>=1.0.0
+jupyterlab>=4.0.0
+ipython>=8.0.0
+ipywidgets>=8.0.0
+notebook>=7.0.0
+
+# =============================================================================
+# VISUALIZATION LIBRARIES
+# =============================================================================
+plotly>=5.15.0
+bokeh>=3.0.0
+altair>=5.0.0
+folium>=0.14.0
+
+# =============================================================================
+# COMPUTER VISION
+# =============================================================================
+# Note: For OpenCV with CUDA support, you'll need to build from source or use
+# a pre-built wheel. Standard opencv-python does not include CUDA support.
+# See: https://github.com/opencv/opencv-python#frequently-asked-questions
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+pillow>=10.0.0
+imageio>=2.31.0
+scikit-image>=0.21.0
+
+# =============================================================================
+# NATURAL LANGUAGE PROCESSING
+# =============================================================================
+nltk>=3.8.0
+spacy>=3.6.0
+transformers>=4.21.0
+tokenizers>=0.13.0
+datasets>=2.14.0
+
+# =============================================================================
+# DATA PROCESSING & WEB SCRAPING
+# =============================================================================
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+openpyxl>=3.1.0
+xlrd>=2.0.0
+sqlalchemy>=2.0.0
+pymongo>=4.5.0
+
+# =============================================================================
+# STATISTICAL ANALYSIS
+# =============================================================================
+statsmodels>=0.14.0
+pingouin>=0.5.0
+
+# =============================================================================
+# SCIENTIFIC COMPUTING & OPTIMIZATION
+# =============================================================================
+sympy>=1.12
+numba>=0.58.0
+
+# =============================================================================
+# WEB FRAMEWORKS & DEPLOYMENT
+# =============================================================================
+flask>=2.3.0
+fastapi>=0.103.0
+streamlit>=1.25.0
+gradio>=3.40.0
+
+# =============================================================================
+# UTILITIES & DEVELOPMENT TOOLS
+# =============================================================================
+tqdm>=4.66.0
+joblib>=1.3.0
+psutil>=5.9.0
+pyyaml>=6.0.0
+jsonschema>=4.19.0
+
+# Strongly recommended for safe model loading (avoid pickle):
+safetensors>=0.4.5
+
+# =============================================================================
+# GOOGLE CLOUD INTEGRATION (like in Colab)
+# =============================================================================
+google-cloud-storage>=2.10.0
+google-auth>=2.22.0
+google-auth-oauthlib>=1.0.0
+gspread>=5.10.0
+
+# =============================================================================
+# AUDIO PROCESSING
+# =============================================================================
+librosa>=0.10.0
+soundfile>=0.12.0
+
+# =============================================================================
+# TIME SERIES & FORECASTING
+# =============================================================================
+prophet>=1.1.0
+
+# =============================================================================
+# ADDITIONAL ML LIBRARIES (Gradient Boosting with GPU support)
+# =============================================================================
+# These libraries support GPU acceleration when CUDA is available
+xgboost>=1.7.0  # Enable GPU with: model = XGBClassifier(tree_method="hist", device="cuda")
+lightgbm>=4.0.0  # Enable GPU with: LGBMClassifier(..., device="gpu")
+catboost>=1.2.0  # Enable GPU with: CatBoostClassifier(..., task_type="GPU")
+
+# =============================================================================
+# NETWORKING & SECURITY
+# =============================================================================
+urllib3>=2.0.0
+certifi>=2023.7.22
