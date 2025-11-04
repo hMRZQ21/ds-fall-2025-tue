@@ -17,7 +17,7 @@ Week 12 (Week starting Nov 17) – PROJECT v1 DUE:  Demo of Demo’s // Open Flo
 Week XX (Week starting Nov 24) – NO CLASS THX GIVING BREAK
 Week 13 (Week starting Dec 01) – FINAL PROJECT DUE && FINAL PRESENTATIONS && Demo Night Details && End of Year survey && Student Shoutouts && Next Steps // Spring Semester. 
 ```
-0. AI Part 1- Deployment [Google Slides Lecture](https://docs.google.com/presentation/d/1fBb5tLjLkHTiR8NB2I_H9icSYl0Y-bg2mPcQ2F7xNiQ/edit?slide=id.p#slide=id.p) [xx min]
+0. AI Part 1- Deployment [Google Slides Lecture](https://docs.google.com/presentation/d/1ceKUtRgGdT1epbDww7ZgrVV2jnJKglQgjxuK5wRSoAA/edit?usp=sharing) [xx min]
 0. Break
 0. [Kevin's App](https://huggingface.co/spaces/LiKenun/ai-building-blocks) [xx min]
 0. [Kevin's Colab](https://colab.research.google.com/drive/1U8WMbFFLXlT8Lrl6yyWVPyv4X0T2g45l) 
