@@ -10,7 +10,8 @@
 0. AI Theory Slide Lecture [Google Slides Lecture](https://docs.google.com/presentation/d/1CuQkBJXlTL0IdttQh9fE3h2pHcgsV905462vS5fKKZc/edit?usp=sharing) [~45 min]
 0. Breakout Rooms [~15 min]
 0. Review HW
-0. Vote on code to teach next class.  RAGs, FineTuning, Agents, or more Deployment (you can only choose one)
+0. Vote on code to teach next class.  RAGs, FineTuning, Agents, or more Deployment (you can only choose one). [Vote Form Hurr](https://forms.gle/eAU34Aw9aNKxgFc97)
+
 
 <br>
 
