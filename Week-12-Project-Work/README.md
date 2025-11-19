@@ -21,6 +21,7 @@ We will go over all details for Demo Night next class.
 0. Link to screen shot of team meeting 
 0. Links to live demo, slide deck, github in HW Submission Sheet.
 0. PROJECT CHECKLIST:  
+<img width="1510" height="842" alt="image" src="https://github.com/user-attachments/assets/ebff0a3b-c27f-45b1-b975-b1a75ffc96ae" />
 See checklist of things you need to hand in [slide deck here](https://docs.google.com/presentation/d/1CGfOVkwWHBVa27vpbOYYRbrnAo4VG5CzEHFuJg1GfTg/edit?slide=id.g3a585d422ff_1_25#slide=id.g3a585d422ff_1_25)
 
 
